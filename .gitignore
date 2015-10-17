@@ -1,3 +1,9 @@
+# Ignore build
+build/*
+
+# Ignore CLion
+.idea
+
 # Compiled Object files
 *.slo
 *.lo

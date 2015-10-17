@@ -12,11 +12,9 @@ int main() {
 
     playfield field;
     player player_1("Player 1");
-    player player_2("Player 2");
-    minimax player_3("Minimax 1");
-    minimax player_4("minimax 2");
+    minimax player_2("Minimax");
 
-    game<minimax, minimax> game(player_3, player_4);
+    game<player, minimax> game(player_1, player_2);
 
     game.run(field);
 
