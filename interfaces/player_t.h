@@ -1,0 +1,11 @@
+#ifndef CONNECT_4_MINIMAX_PLAYER_T_H
+#define CONNECT_4_MINIMAX_PLAYER_T_H
+
+enum player_t
+{
+    NOBODY = 0,
+    PLAYER_ONE = 1,
+    PLAYER_TWO = 2
+};
+
+#endif //CONNECT_4_MINIMAX_PLAYER_T_H
